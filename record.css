@@ -1,0 +1,60 @@
+.record{
+    font-family:Microsoft JhengHei;
+    width: 100%;
+    height: 800px;
+    background-color:#f5f5f5;
+    text-align: center;
+}
+.record .title{
+    font-size: 24px;
+    padding: 50px;
+}
+.record .content{
+    padding: 0;
+    width: 670px;
+    height: 62px;
+    margin: 0 auto 16px;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.record .smallBox{
+    width: 7px;
+    height: 62px;
+    background-color: #86D73F;
+}
+.record .content h1{
+    padding-left: 12px;
+    padding-right: 28px;
+    font-size: 20px;
+}
+.record .content span{
+    font-size: 12px;
+}
+.record .content samp{
+    padding-left: 7px;
+    font-size: 20px;
+}
+.record .contentValue{
+    display: inline-block;
+    position: absolute;
+    left:140px ;
+}
+.record .contentValue span{
+    padding-right:30px;
+}
+.date{
+    padding: 0;
+    position: absolute;
+    right: 10px;
+}
+.record a{
+    text-decoration: none;
+    color: white;
+    padding: 0 3px;
+    margin-left: 5px;    
+    background-color: gray;
+    text-align: center;
+}
