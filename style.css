@@ -79,11 +79,11 @@ input::-webkit-input-placeholder {
 
 .result:hover {
     box-shadow: 0px 1px 6px 3px #FFC431;
-    background-color: rgb(149, 148, 143);
+    /* background-color: rgb(149, 148, 143); */
 }
 
 .result:active {
-    background-color: #DEA921;
+    background-color: rgb(149, 148, 143);
 }
 
 .green {
